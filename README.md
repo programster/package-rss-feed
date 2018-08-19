@@ -15,7 +15,7 @@ $pubDate->setTimestamp(1534698676);
 
 $items[] = new RssItem(
     "Article Title", 
-    "https://my.domain.org/path/to/article",
+    "https://blog.mydomain.org/path/to/article",
     "A description of the article goes here.", 
     $pubDate, 
     "my-article-category"
@@ -24,11 +24,11 @@ $items[] = new RssItem(
 // .. add another item, and another, and another...
 
 $channel = new RssChannel(
-    "Programster's Blog", 
-    "https://blog.programster.org", 
-    "Tutorials on Linux and Open Source", 
+    "My Awesome Blog", 
+    "https://blog.mydomain.com", 
+    "Tutorials on This and That", 
     "en", 
-    new NullRssImage, 
+    new NullRssImage(), 
     ...$items
 );
 
