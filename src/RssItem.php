@@ -15,8 +15,7 @@ class RssItem
         string $link, // url to specific post. E.g. blog.programster.org/my-post
         string $description, 
         \DateTime $pubDate, 
-        string $category,
-        string $content
+        string $category
     )
     {
         $this->m_title = $title;
@@ -24,7 +23,6 @@ class RssItem
         $this->m_description = $description;
         $this->m_pubDate = $pubDate;
         $this->m_category = $category;
-        $this->m_content = $content;
     }
     
     public function __toString()
