@@ -1,0 +1,24 @@
+{
+    "name": "programster/rss-feed",
+    "type": "library",
+    "description": "A package to make creating an RSS feed easy.",
+    "keywords": ["RSS"],
+    "homepage": "https://github.com/programster/package-rss-feed",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Page",
+            "email": "sdpagent@gmail.com",
+            "homepage": "blog.programster.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Programster\\RssFeed\\": "src/"
+        }
+    }
+}
