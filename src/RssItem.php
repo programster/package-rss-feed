@@ -14,7 +14,7 @@ class RssItem
         string $title, 
         string $link, // url to specific post. E.g. blog.programster.org/my-post
         string $description, 
-        DateTime $pubDate, 
+        \DateTime $pubDate, 
         string $category,
         string $content
     )
