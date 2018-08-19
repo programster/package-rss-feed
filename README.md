@@ -3,10 +3,18 @@ RSS Feed Package
 
 A package to make generating an RSS 2.0 feed easy and straightforward.
 
+## Installation
+
+```
+composer require programster/rss-feed
+```
+
 ## Example Usage
 
 ```php
 <?php
+
+require_once(__DIR__ . '/vendor/autoload.php');
 
 $items = array();
 
