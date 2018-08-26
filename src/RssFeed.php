@@ -18,7 +18,7 @@ class RssFeed
     {
         $xml = 
             '<?xml version="1.0" encoding="utf-8"?>' . PHP_EOL .
-            '<rss version="2.0">' . PHP_EOL . 
+            '<rss xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">' . PHP_EOL . 
             implode(PHP_EOL, $this->m_channels) . PHP_EOL .
             '</rss>';
         
